@@ -1,0 +1,40 @@
+.log-form{
+    margin-bottom: 16px;
+    background-color: #EAE2B7;
+   padding: 10px;
+}
+.form-item{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    flex-flow: row;
+    margin: 16px 0;
+}
+.form-item input{
+    flex: auto;
+}
+.form-item label{
+    text-align: right;
+    padding: 0 10px; 
+    cursor: pointer;
+    display: inline-block;
+    width: 100px;
+}
+
+.form-btn{
+    text-align: center;
+}
+.form-btn button{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    transition: .3s;
+}
+.form-btn button:hover{
+    background-color: #D62828;
+}
